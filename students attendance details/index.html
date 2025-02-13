@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attendance details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Attendance Management System</h1>
+    </header>
+    <section id="add-section">
+        <h2>Add Student</h2>
+        <form id="student-form">
+            <input type="text" id="student-name" placeholder="Enter Student Name">
+            <button type="submit">Add Student</button>
+        </form>
+    </section>
+
+    <section id="attendance">
+        <h2>Mark Attendance</h2>
+        <form id="Attendance-form">
+            <input type="date" id="attendance-date" >
+            <button type="submit">submit Attendance</button>
+        </form>
+    </section>
+      
+    <section id="attendance-report">
+        <h2>Attendance </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>present or absent</th>
+                    
+                </tr>
+                <tr>
+                    <th>922519104170</th>
+                    <th>present</th>
+                </tr>
+                <tr>
+                    <th>922519104180</th>
+                    <th>absent</th>
+                </tr>
+            </thead>
+            <tbody id="attendance-table">
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>Attendance System - Simple Web Application</p>
+
+    </footer>
+</body>
+</html>
